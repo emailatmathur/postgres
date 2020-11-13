@@ -35,3 +35,5 @@ whereas E'\n'|| is used to move the output onto second line.
 
 You can also build the insert statement as well by using the same method.
 
+
+Note : you can use convert_from function to convert to desired encoding like utf8 etc.
