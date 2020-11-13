@@ -33,6 +33,10 @@ update ngc_exchange set payload = :LASTOID where payload= '78662';
 You can simply copy the exported BLOB files to new server or even upload from same server to new database using above queries. :LASTLOIS will be new OID returns from import command. This can also be put into pgpsql to automate the process.
 whereas E'\n'|| is used to move the output onto second line.
 
+
+\lo_unlink LOBOID -> to delete the large object from database.
+\lo_list -> to list the large objects
+
 You can also build the insert statement as well by using the same method.
 
 
